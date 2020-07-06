@@ -1,0 +1,8 @@
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\bin\Debug\netcoreapp3.1\ECSSR.MODEL.deps.json
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\bin\Debug\netcoreapp3.1\ECSSR.MODEL.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\bin\Debug\netcoreapp3.1\ECSSR.MODEL.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\obj\Debug\netcoreapp3.1\ECSSR.MODEL.csprojAssemblyReference.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\obj\Debug\netcoreapp3.1\ECSSR.MODEL.AssemblyInfoInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\obj\Debug\netcoreapp3.1\ECSSR.MODEL.AssemblyInfo.cs
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\obj\Debug\netcoreapp3.1\ECSSR.MODEL.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MODEL\obj\Debug\netcoreapp3.1\ECSSR.MODEL.pdb

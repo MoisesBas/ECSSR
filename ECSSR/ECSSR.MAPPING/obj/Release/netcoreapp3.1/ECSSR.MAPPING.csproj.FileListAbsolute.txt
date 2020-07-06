@@ -1,0 +1,8 @@
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\bin\Release\netcoreapp3.1\ECSSR.MAPPING.deps.json
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\bin\Release\netcoreapp3.1\ECSSR.MAPPING.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\bin\Release\netcoreapp3.1\ECSSR.MAPPING.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\obj\Release\netcoreapp3.1\ECSSR.MAPPING.csproj.CoreCompileInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\obj\Release\netcoreapp3.1\ECSSR.MAPPING.AssemblyInfoInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\obj\Release\netcoreapp3.1\ECSSR.MAPPING.AssemblyInfo.cs
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\obj\Release\netcoreapp3.1\ECSSR.MAPPING.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.MAPPING\obj\Release\netcoreapp3.1\ECSSR.MAPPING.pdb

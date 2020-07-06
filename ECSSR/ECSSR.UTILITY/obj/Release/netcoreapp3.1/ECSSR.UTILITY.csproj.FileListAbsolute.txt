@@ -1,0 +1,8 @@
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Release\netcoreapp3.1\ECSSR.UTILITY.deps.json
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Release\netcoreapp3.1\ECSSR.UTILITY.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Release\netcoreapp3.1\ECSSR.UTILITY.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.csproj.CoreCompileInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.AssemblyInfoInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.AssemblyInfo.cs
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.pdb

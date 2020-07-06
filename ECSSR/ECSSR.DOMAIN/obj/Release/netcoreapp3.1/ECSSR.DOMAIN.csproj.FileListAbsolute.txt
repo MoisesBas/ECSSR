@@ -1,0 +1,8 @@
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\bin\Release\netcoreapp3.1\ECSSR.DOMAIN.deps.json
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\bin\Release\netcoreapp3.1\ECSSR.DOMAIN.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\bin\Release\netcoreapp3.1\ECSSR.DOMAIN.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\obj\Release\netcoreapp3.1\ECSSR.DOMAIN.csproj.CoreCompileInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\obj\Release\netcoreapp3.1\ECSSR.DOMAIN.AssemblyInfoInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\obj\Release\netcoreapp3.1\ECSSR.DOMAIN.AssemblyInfo.cs
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\obj\Release\netcoreapp3.1\ECSSR.DOMAIN.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.DOMAIN\obj\Release\netcoreapp3.1\ECSSR.DOMAIN.pdb
