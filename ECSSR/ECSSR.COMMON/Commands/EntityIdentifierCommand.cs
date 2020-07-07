@@ -15,5 +15,6 @@ namespace ECSSR.COMMON.Commands
         }
 
         public TKey Id { get; }
+
     }
 }
