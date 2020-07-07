@@ -2,6 +2,7 @@ using System;
 using AutoMapper;
 using ECSSR.COMMON;
 using ECSSR.DOMAIN;
+using ECSSR.UTILITY.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +32,7 @@ namespace ECSSR.UI
             services.AddDbContext<ECSSRDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<IECSSRDbContext>(provider => provider.GetService<ECSSRDbContext>());
             services.AddDomainAutoMapper();
             services.AddApplication();
             services.AddControllersWithViews();

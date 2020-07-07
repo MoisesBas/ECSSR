@@ -13,7 +13,7 @@ using ECSSR.UTILITY.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace ECSSR.CQRS.Handlers
+namespace ECSSR.COMMON.Handlers
 {
     public class EntityUpdateCommandHandler<TDbContext, TEntity, TKey, TUpdateModel, TReadModel>
        : DataContextHandlerBase<TDbContext, EntityUpdateCommand<TKey, TUpdateModel, EntityResponseModel<TReadModel>>, EntityResponseModel<TReadModel>>

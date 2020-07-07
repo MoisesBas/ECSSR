@@ -13,7 +13,7 @@ using ECSSR.UTILITY.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace ECSSR.CQRS.Handlers
+namespace ECSSR.COMMON.Handlers
 {
     public class EntityIdentifierQueryHandler<TDbContext, TEntity, TKey, TReadModel>
        : DataContextHandlerBase<TDbContext, EntityIdentifierCommand<TKey, EntityResponseModel<TReadModel>>, EntityResponseModel<TReadModel>>

@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
 using ECSSR.COMMON.Commands;
-using ECSSR.COMMON.Handlers;
 using ECSSR.UTILITY.Interface;
 using ECSSR.UTILITY.Model;
 using Microsoft.Extensions.Logging;
 
-namespace ECSSR.CQRS.Handlers
+namespace ECSSR.COMMON.Handlers
 {
     public class EntityCreateCommandHandler<TDbContext, TEntity, TKey, TCreateModel, TReadModel>
        : DataContextHandlerBase<TDbContext, EntityCreateCommand<TCreateModel, EntityResponseModel<TReadModel>>, EntityResponseModel<TReadModel>>
