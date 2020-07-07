@@ -6,3 +6,11 @@ E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\obj\Release\netcoreapp3.1\ECSSR.CQRS.As
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\obj\Release\netcoreapp3.1\ECSSR.CQRS.AssemblyInfo.cs
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\obj\Release\netcoreapp3.1\ECSSR.CQRS.dll
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\obj\Release\netcoreapp3.1\ECSSR.CQRS.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\bin\Release\netcoreapp3.1\ECSSR.COMMON.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\bin\Release\netcoreapp3.1\ECSSR.DOMAIN.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\bin\Release\netcoreapp3.1\ECSSR.UTILITY.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\bin\Release\netcoreapp3.1\ECSSR.COMMON.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\bin\Release\netcoreapp3.1\ECSSR.DOMAIN.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\bin\Release\netcoreapp3.1\ECSSR.UTILITY.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\obj\Release\netcoreapp3.1\ECSSR.CQRS.csprojAssemblyReference.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.CQRS\obj\Release\netcoreapp3.1\ECSSR.CQRS.csproj.CopyComplete

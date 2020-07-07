@@ -1,0 +1,8 @@
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Release\netcoreapp3.1\ECSSR.ElasticSearch.deps.json
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Release\netcoreapp3.1\ECSSR.ElasticSearch.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Release\netcoreapp3.1\ECSSR.ElasticSearch.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Release\netcoreapp3.1\ECSSR.ElasticSearch.csproj.CoreCompileInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Release\netcoreapp3.1\ECSSR.ElasticSearch.AssemblyInfoInputs.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Release\netcoreapp3.1\ECSSR.ElasticSearch.AssemblyInfo.cs
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Release\netcoreapp3.1\ECSSR.ElasticSearch.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Release\netcoreapp3.1\ECSSR.ElasticSearch.pdb

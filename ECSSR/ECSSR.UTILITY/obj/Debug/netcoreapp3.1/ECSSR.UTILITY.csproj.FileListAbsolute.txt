@@ -5,7 +5,7 @@ E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILIT
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILITY.AssemblyInfo.cs
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILITY.dll
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILITY.pdb
-E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILITY.csprojAssemblyReference.cache
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Debug\netcoreapp3.1\ECSSR.UTILITY.runtimeconfig.json
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Debug\netcoreapp3.1\ECSSR.UTILITY.runtimeconfig.dev.json
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILITY.genruntimeconfig.cache
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Debug\netcoreapp3.1\ECSSR.UTILITY.csproj.CoreCompileInputs.cache
