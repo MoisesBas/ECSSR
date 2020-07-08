@@ -10,5 +10,4 @@ E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.COMMON\bin\Debug\netcoreapp3.1\ECSSR.DOMAIN.
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.COMMON\bin\Debug\netcoreapp3.1\ECSSR.UTILITY.dll
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.COMMON\bin\Debug\netcoreapp3.1\ECSSR.DOMAIN.pdb
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.COMMON\bin\Debug\netcoreapp3.1\ECSSR.UTILITY.pdb
-E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.COMMON\obj\Debug\netcoreapp3.1\ECSSR.COMMON.csproj.CoreCompileInputs.cache
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.COMMON\obj\Debug\netcoreapp3.1\ECSSR.COMMON.csproj.CopyComplete

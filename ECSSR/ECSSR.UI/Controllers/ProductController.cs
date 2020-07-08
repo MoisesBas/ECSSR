@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using ECSSR.COMMON.Commands;
 using ECSSR.COMMON.Product.Dto;
+using ECSSR.COMMON.Queries;
 using ECSSR.UTILITY.Model;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -20,7 +21,7 @@ namespace ECSSR.UI.Controllers
         {
 
         }
-        [HttpPut("Insert")]
+        [HttpPost("Insert")]
         [ProducesResponseType(typeof(EntityResponseModel<ProductReadDto>), 200)]
         public async Task<IActionResult> Insert(CancellationToken cancellationToken,
             ProductCreateDto model)
@@ -67,29 +68,7 @@ namespace ECSSR.UI.Controllers
 
         }
 
-        [HttpPut("Delete")]
-        [ProducesResponseType(typeof(EntityResponseModel<ProductReadDto>), 200)]
-        public async Task<IActionResult> Delete(CancellationToken cancellationToken,
-           ProductUpdateDto model, int id)
-        {
-            var returnResponse = new EntityResponseModel<ProductReadDto>();
-            try
-            {
-                var command = new EntityUpdateCommand<int, ProductUpdateDto, EntityResponseModel<ProductReadDto>>(id, model);
-                var result = await Mediator.Send(command, cancellationToken).ConfigureAwait(false);
-                if (result.ReturnStatus == false)
-                    return BadRequest(result);
-                return Ok(result);
-
-            }
-            catch (Exception ex)
-            {
-                returnResponse.ReturnStatus = false;
-                returnResponse.ReturnMessage.Add(ex.Message);
-                return BadRequest(returnResponse);
-            }
-
-        }
+        
         [HttpDelete("Delete")]
         [ProducesResponseType(typeof(EntityResponseModel<ProductReadDto>), 200)]
         public async Task<IActionResult> Delete(CancellationToken cancellationToken, int id)
@@ -97,7 +76,7 @@ namespace ECSSR.UI.Controllers
             var returnResponse = new EntityResponseModel<ProductReadDto>();
             try
             {
-                var command = new EntityDeleteCommand<int, EntityResponseModel<ProductReadDto>>(User, id, "Addresses, AgentContacts, AgentModules, AgentModules.AgentQuotas, AgentDocuments, AgentIpAddresses, AgentCountryOperations,CompanyAgentBranches, SendingTransactions");
+                var command = new EntityDeleteCommand<int, EntityResponseModel<ProductReadDto>>(id);
                 var result = await Mediator.Send(command, cancellationToken).ConfigureAwait(false);
                 if (result.ReturnStatus == false)
                     return BadRequest(result);
@@ -110,5 +89,46 @@ namespace ECSSR.UI.Controllers
                 return BadRequest(returnResponse);
             }
         }
+        [HttpGet("GetById")]
+        [ProducesResponseType(typeof(EntityResponseModel<ProductReadDto>), 200)]
+        public async Task<IActionResult> GetById(int id, CancellationToken cancellationToken)
+        {
+            var returnResponse = new EntityResponseModel<ProductReadDto>();
+            try
+            {
+                var query = new EntityIdentifierQuery<int, EntityResponseModel<ProductReadDto>>(id);
+                var result = await Mediator.Send(query, cancellationToken).ConfigureAwait(false);
+                if (result.ReturnStatus == false)
+                    return BadRequest(result);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                returnResponse.ReturnStatus = false;
+                returnResponse.ReturnMessage.Add(ex.Message);
+                return BadRequest(returnResponse);
+            }
+        }
+        [HttpPost("GetAll")]
+        [ProducesResponseType(typeof(EntityPagedResult<ProductReadDto>), 200)]
+        public async Task<IActionResult> GetAll(EntityQuery model, CancellationToken cancellationToken)
+        {
+            EntityPagedResult<ProductReadDto> returnResponse = new EntityPagedResult<ProductReadDto>();
+            try
+            {
+                var query = new EntityPagedQuery<EntityPagedResult<ProductReadDto>>(model);
+                var result = await Mediator.Send(query, cancellationToken).ConfigureAwait(false);
+                if (result.ReturnStatus == false)
+                    return BadRequest(result);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                returnResponse.ReturnStatus = false;
+                returnResponse.ReturnMessage.Add(ex.Message);
+                return BadRequest(returnResponse);
+            }
+        }
+
     }
 }

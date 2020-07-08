@@ -35,6 +35,7 @@ namespace ECSSR.UI
             services.AddScoped<IECSSRDbContext>(provider => provider.GetService<ECSSRDbContext>());
             services.AddDomainAutoMapper();
             services.AddApplication();
+            services.AddDomainCommon();
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

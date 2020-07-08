@@ -5,7 +5,7 @@ using ECSSR.UTILITY.Model;
 
 namespace ECSSR.COMMON.Product.Dto
 {
-    public class ProductCreateDto : EntityModel<int>, ITrackCreated
+    public class ProductCreateDto : ITrackCreated
     {
         public string Name { get; set; }
         public string Color { get; set; }     
