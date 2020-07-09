@@ -16,7 +16,7 @@ namespace ECSSR.UTILITY.Model
             ReturnMessage = new List<String>();
             ReturnStatus = true;
             Errors = new Hashtable();
-            Data = default;
+            Data = new List<T>();
         }
     }
 }

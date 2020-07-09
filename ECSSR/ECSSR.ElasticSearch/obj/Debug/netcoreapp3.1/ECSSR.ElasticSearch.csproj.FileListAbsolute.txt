@@ -2,8 +2,10 @@ E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Debug\netcoreapp3.1\ECSSR.
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Debug\netcoreapp3.1\ECSSR.ElasticSearch.dll
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Debug\netcoreapp3.1\ECSSR.ElasticSearch.pdb
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.csprojAssemblyReference.cache
-E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.csproj.CoreCompileInputs.cache
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.AssemblyInfoInputs.cache
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.AssemblyInfo.cs
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.dll
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Debug\netcoreapp3.1\ECSSR.UTILITY.dll
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\bin\Debug\netcoreapp3.1\ECSSR.UTILITY.pdb
+E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.ElasticSearch\obj\Debug\netcoreapp3.1\ECSSR.ElasticSearch.csproj.CopyComplete

@@ -4,14 +4,16 @@ using ECSSR.DOMAIN;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ECSSR.DOMAIN.Migrations
 {
     [DbContext(typeof(ECSSRDbContext))]
-    partial class ECSSRDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200709013023_ModifiedProduct")]
+    partial class ModifiedProduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -26,14 +28,8 @@ namespace ECSSR.DOMAIN.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Category")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Color")
                         .HasColumnType("varchar(90)");
-
-                    b.Property<string>("CompanyName")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTimeOffset>("Created")
                         .HasColumnType("datetimeoffset");
@@ -55,9 +51,6 @@ namespace ECSSR.DOMAIN.Migrations
 
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("varchar(18)");
-
-                    b.Property<byte[]>("Video")
-                        .HasColumnType("varbinary(max)");
 
                     b.HasKey("Id");
 

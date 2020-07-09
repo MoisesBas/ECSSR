@@ -8,8 +8,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ECSSR.UI.Controllers
 {
-    [Route("api/[controller]")]
+    
     [ApiController]
+    [Produces("application/json")]
+    [Consumes("application/json", "multipart/form-data")]
     public abstract class BaseController : ControllerBase
     {
         protected BaseController(IMediator mediator)

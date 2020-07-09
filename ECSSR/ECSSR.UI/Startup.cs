@@ -3,6 +3,7 @@ using AutoMapper;
 using ECSSR.COMMON;
 using ECSSR.DOMAIN;
 using ECSSR.UTILITY.Interface;
+using ECSSR.UTILITY.Others;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +30,8 @@ namespace ECSSR.UI
         {
             services.AddRazorPages();
             services.AddOptions();
+            services.AddSingleton(Configuration);
+            services.Configure<ECSSRSettings>(option => Configuration.GetSection("elasticsearch").Bind(option));
             services.AddDbContext<ECSSRDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
@@ -51,7 +54,7 @@ namespace ECSSR.UI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ECSSRDbContext dataContext)
         {
-            //dataContext.Database.Migrate();
+            dataContext.Database.Migrate();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

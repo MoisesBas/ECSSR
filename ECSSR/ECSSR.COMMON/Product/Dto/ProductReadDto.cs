@@ -8,6 +8,8 @@ namespace ECSSR.COMMON.Product.Dto
     {
         public string Name { get; set; }
         public string Color { get; set; }
+        public decimal? PriceFrom { get; set; }
+        public decimal? PriceTo { get; set; }
         public DateTimeOffset Created { get; set; }
         public string CreatedBy { get; set; }
         public DateTimeOffset? Updated { get; set; }
