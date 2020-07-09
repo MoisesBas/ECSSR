@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ProductImage\Handlers\" />
     <Folder Include="Product\Handlers\" />
   </ItemGroup>
 
