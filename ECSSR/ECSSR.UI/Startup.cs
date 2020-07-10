@@ -2,6 +2,7 @@ using System;
 using AutoMapper;
 using ECSSR.COMMON;
 using ECSSR.DOMAIN;
+using ECSSR.UTILITY.ElasticSearch;
 using ECSSR.UTILITY.Interface;
 using ECSSR.UTILITY.Others;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +32,8 @@ namespace ECSSR.UI
             services.AddRazorPages();
             services.AddOptions();
             services.AddSingleton(Configuration);
+            services.AddTransient<IRepositoryBase, ProductRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
             services.Configure<ECSSRSettings>(option => Configuration.GetSection("elasticsearch").Bind(option));
             services.AddDbContext<ECSSRDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));

@@ -24,8 +24,4 @@
     <ProjectReference Include="..\ECSSR.UTILITY\ECSSR.UTILITY.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Product\Handlers\" />
-  </ItemGroup>
-
 </Project>
