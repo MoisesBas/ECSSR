@@ -8,5 +8,4 @@ E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTIL
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.pdb
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Release\netcoreapp3.1\ECSSR.UTILITY.runtimeconfig.json
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\bin\Release\netcoreapp3.1\ECSSR.UTILITY.runtimeconfig.dev.json
-E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.csprojAssemblyReference.cache
 E:\Exam\MoisesBas\ECSSR\ECSSR\ECSSR.UTILITY\obj\Release\netcoreapp3.1\ECSSR.UTILITY.genruntimeconfig.cache

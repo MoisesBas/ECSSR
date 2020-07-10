@@ -16,10 +16,12 @@
           "FluentValidation.DependencyInjectionExtensions": "8.6.2",
           "MediatR": "8.0.2",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "Microsoft.AspNetCore.Http.Features": "3.1.5",
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.5",
-          "Microsoft.Extensions.Options": "3.1.5"
+          "Microsoft.Extensions.Options": "3.1.5",
+          "System.Linq.Dynamic.Core": "1.1.7"
         },
         "runtime": {
           "ECSSR.COMMON.dll": {}
@@ -46,6 +48,19 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Elasticsearch.Net/7.8.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Buffers": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.8.1.0"
           }
         }
       },
@@ -89,6 +104,18 @@
           "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/3.1.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.5",
+          "System.IO.Pipelines": "4.7.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27105"
           }
         }
       },
@@ -337,6 +364,48 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
+      "NEST/7.8.1": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.8.1.0"
+          }
+        }
+      },
+      "NEST.7xUpgradeAssistant/7.1.0": {
+        "dependencies": {
+          "NEST": "7.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.7xUpgradeAssistant.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "NEST.JsonNetSerializer/7.8.1": {
+        "dependencies": {
+          "NEST": "7.8.1",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.8.1.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -377,6 +446,7 @@
           }
         }
       },
+      "System.Buffers/4.5.0": {},
       "System.Collections/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -543,6 +613,14 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.IO.Pipelines/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "4.0.2.1",
+            "fileVersion": "4.700.20.12001"
+          }
+        }
+      },
       "System.Linq/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -550,6 +628,14 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Dynamic.Core/1.1.7": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.1.7.0",
+            "fileVersion": "1.1.7.0"
+          }
         }
       },
       "System.Net.NameResolution/4.3.0": {
@@ -949,7 +1035,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.5",
           "Microsoft.Extensions.DependencyInjection": "3.1.5",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.5",
-          "Microsoft.Extensions.Options": "3.1.5"
+          "Microsoft.Extensions.Options": "3.1.5",
+          "NEST": "7.8.1",
+          "NEST.7xUpgradeAssistant": "7.1.0",
+          "NEST.JsonNetSerializer": "7.8.1"
         },
         "runtime": {
           "ECSSR.UTILITY.dll": {}
@@ -976,6 +1065,13 @@
       "sha512": "sha512-szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
       "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Elasticsearch.Net/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vGHlxY72LH8/DcKb/QDpvrIelQIUFxNnXa+HmS/ifX7M7dgwmTpA2i4SagQ65gg7oi088cteUuDl4fKIystg7Q==",
+      "path": "elasticsearch.net/7.8.1",
+      "hashPath": "elasticsearch.net.7.8.1.nupkg.sha512"
     },
     "FluentValidation/8.6.2": {
       "type": "package",
@@ -1004,6 +1100,13 @@
       "sha512": "sha512-NsNGjesuAFiUoJCYXVzuui69iJuKFVLomk2q+nWkp8VwZjarjJRKLAQtzJqvya7H2hw/DHqzS6vxEghLtZa7yg==",
       "path": "mediatr.extensions.microsoft.dependencyinjection/8.0.1",
       "hashPath": "mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I+G1L5363H2oCdMxHv2vtbluRgb4e33Gv6zJd8Uj93bBRFbE4MZlb3cB9PvRAYpSB0xbK216/qRtHmQJBzWIcg==",
+      "path": "microsoft.aspnetcore.http.features/3.1.5",
+      "hashPath": "microsoft.aspnetcore.http.features.3.1.5.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1173,6 +1276,34 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
+    "NEST/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GVpHMDeVGMxHy0EVzJpPanT7g88kMGV9zUsO/l0P2ZnhDJ1rxEsd0ElkjR2O5vBwp7WuPgNssSUSP9qVc94ybw==",
+      "path": "nest/7.8.1",
+      "hashPath": "nest.7.8.1.nupkg.sha512"
+    },
+    "NEST.7xUpgradeAssistant/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jdb+Nt0ZDIrNlG1wseTltW/ut/HpVr5gtFuzeM/qHCqt5y+yRGe57snsCx+7UNgjG3MkNTntsJdfG4FXT3NeDg==",
+      "path": "nest.7xupgradeassistant/7.1.0",
+      "hashPath": "nest.7xupgradeassistant.7.1.0.nupkg.sha512"
+    },
+    "NEST.JsonNetSerializer/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7gJCbuHxHnZvfTZnrPQWAJ+SQUAVtW/tnZJ7GXmpzOHbqtIi9S/oi8kCpG1GVzI+Z00fC8jmm6XTNWw5WkcTDw==",
+      "path": "nest.jsonnetserializer/7.8.1",
+      "hashPath": "nest.jsonnetserializer.7.8.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
     "runtime.native.System/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1207,6 +1338,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -1341,12 +1479,26 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
     },
+    "System.IO.Pipelines/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TyMTasnXQt7U4k13RQ7tA3CrfWEkvWjR635SFfnKVwwMOgClLE5mdHSkG2D13BLIdNwbPTGVQnhQB8Rk7f53Rg==",
+      "path": "system.io.pipelines/4.7.1",
+      "hashPath": "system.io.pipelines.4.7.1.nupkg.sha512"
+    },
     "System.Linq/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j8R5YYCWCpwpYHUbPhZsX76lIPit2Uh13XIHHbAs1OOUSkGI+zmoaXgdTR1ClZNCXa1o0acm1cJnqSyoVhnI3w==",
+      "path": "system.linq.dynamic.core/1.1.7",
+      "hashPath": "system.linq.dynamic.core.1.1.7.nupkg.sha512"
     },
     "System.Net.NameResolution/4.3.0": {
       "type": "package",

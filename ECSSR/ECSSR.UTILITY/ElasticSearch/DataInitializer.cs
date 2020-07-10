@@ -37,7 +37,7 @@ namespace ECSSR.UTILITY.ElasticSearch
                          .Skip(batchSkip)
                          .Take(batchSize).AsEnumerable();
             var result = _productRepository.SaveBulk(null).ConfigureAwait(false);
-            return null;
+            return 0;
         }     
 
     }

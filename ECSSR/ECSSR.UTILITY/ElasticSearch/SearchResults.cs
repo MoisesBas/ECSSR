@@ -7,9 +7,7 @@ namespace ECSSR.UTILITY.ElasticSearch
     public class SearchResults<T> where T : class
     {
         public List<T> Items { get; set; }
-        public long TotalResults { get; set; }
-        public string OriginalQuery { get; set; }
-        public string DebugInformation { get; set; }
+        public long TotalResults { get; set; }       
 
         public SearchResults()
         {

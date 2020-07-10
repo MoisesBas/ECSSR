@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using ECSSR.COMMON.ProductImage.Dto;
 using ECSSR.COMMON.Queries;
 using ECSSR.COMMON.ProductImage.Handlers;
+using ECSSR.COMMON.Product.Handlers;
 
 namespace ECSSR.COMMON
 {
@@ -19,6 +20,7 @@ namespace ECSSR.COMMON
     {
         public static IServiceCollection AddDomainCommon(this IServiceCollection serviceCollection)
         {
+            serviceCollection.TryAddScoped<IRequestHandler<EntityPagedModelQuery<ProductSearchDto, ProductReadDto>, EntityPagedResult<ProductReadDto>>, ProductSearchCommandHandler<IECSSRDbContext>>();
             serviceCollection.TryAddScoped<IRequestHandler<EntityCreateCommand<ProductImageCreateDto, EntityResponseModel<ProductImageReadDto>>, EntityResponseModel<ProductImageReadDto>>, ProductImageCreateCommandHandler<IECSSRDbContext>>();
             serviceCollection.TryAddScoped<IRequestHandler<EntityListQuery<EntityResponseListModel<ProductImageReadDto>>, EntityResponseListModel<ProductImageReadDto>>, ProductImageGetByProductIdCommandHandler<IECSSRDbContext>>();            
             serviceCollection.AddEntityCommand<IECSSRDbContext, int, DOMAIN.Entities.Product, ProductCreateDto, ProductUpdateDto, ProductReadDto>();

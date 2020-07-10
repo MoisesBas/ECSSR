@@ -9,10 +9,16 @@ namespace ECSSR.UTILITY.ElasticSearch
         public SearchRequest()
         {
             this.PageSize = 20;
-        }
-        public int Skip { get; set; }
+        }        
+
+        public string Name { get; set; }
+        public string Color { get; set; }
+        public decimal? PriceFrom { get; set; }
+        public decimal? PriceTo { get; set; }
+        public DateTime? CreatedFrom { get; set; }
+        public DateTime? CreatedTo { get; set; }
+        public int Page { get; set; }
         public int PageSize { get; set; }
-        public string Query { get; set; }
 
     }
 }

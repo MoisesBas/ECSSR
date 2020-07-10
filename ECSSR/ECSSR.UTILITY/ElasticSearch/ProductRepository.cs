@@ -72,18 +72,13 @@ namespace ECSSR.UTILITY.ElasticSearch
             {
 
                 var result = await GetClient().SearchAsync<ProductModel>(s =>
-                s.From(request.Skip)
+                s.From(request.Page)
                  .Size(request.PageSize)
                  .Index(IndexName));
-                
-
 
                 var searchResult = new SearchResults<ProductModel>()
                 {
-                    TotalResults = result.Total,
-                    DebugInformation = result.DebugInformation,
-                    OriginalQuery = request.Query
-
+                    TotalResults = result.Total
                 };
                 foreach (var hit in result.Hits)
                 {
